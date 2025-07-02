@@ -1,0 +1,13 @@
+# Ignorar modelos grandes y tokenizaciones
+models/modelo_epoca1.pt
+data/dataset_tokenizado.pt
+
+# Ignorar backups y temporales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Ignorar entorno virtual si estuviera dentro
+venv/
