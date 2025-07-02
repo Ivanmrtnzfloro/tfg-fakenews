@@ -37,12 +37,29 @@ pip install -r requirements.txt
 Cómo ejecutar el proyecto
 DESDE DENTRO DE SCRIPTS:
 
+## 📁 Archivos grandes excluidos
+
+
+Los siguientes archivos han sido excluidos del repositorio por superar el límite de tamaño de GitHub.  
+Puedes descargarlos desde este enlace de Google Drive:
+
+https://drive.google.com/drive/folders/1IVIbdhEc3_vMLF8mrOxju4dH1S1hgYzF?usp=sharing
+
+Se deben de poner el modelo dentro de models 
+y el dataset tokenizado dentro de data
+
+O si prefieres desde el principio estos son los pasos:
+
 1. Preprocesamiento y tokenización
 
 python 1_preprocesamiento.py
 python 2_tokenizacion.py
 
 2. Entrenamiento del modelo
+
+(IMPORTANTE CREAR EL ARCHIVO MODELS)
+
+mkdir models
 
 python 3_entrenar_modelo.py
 (CUIDADO TARDA BASTANTE EN CARGAR EL MODELO SIN UNA GPU, NO LO VOY A SUBIR DIRECTAMENTE PESA MUCHO PARA GIT)
