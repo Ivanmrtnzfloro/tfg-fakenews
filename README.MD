@@ -45,6 +45,7 @@ python 2_tokenizacion.py
 2. Entrenamiento del modelo
 
 python 3_entrenar_modelo.py
+(CUIDADO TARDA BASTANTE EN CARGAR EL MODELO SIN UNA GPU, NO LO VOY A SUBIR DIRECTAMENTE PESA MUCHO PARA GIT)
 
 3. Evaluación del modelo
 
